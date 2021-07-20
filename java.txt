@@ -1,0 +1,66 @@
+andrea sugue
+
+
+git config --global user.name
+git config --global user.email
+
+mkdir ~/git
+cd git
+mkdir gitexercise
+cd gitexercise
+git init
+
+
+copy jul13.txt to gitexercise folder
+
+
+
+git add jul13.txt
+
+
+git commit -a -m "first version"
+
+
+git status
+
+git log
+
+create repository
+
+git remote add origin ....
+git branch -M main
+git push -u origin main
+
+
+git mv jul13.txt newjul13.txt      //to change fine name
+
+
+git checkout -- newjul13.txt  		//to revert to previous version before commtting
+
+git revert 61b71b			//to revert after committing
+
+git diff main
+
+git merge branch1
+
+git checkout main
+
+git branch -d branch1			//to delete branch1
+
+git push origin --delete branch1		//delete branch1 from github
+
+
+git tag v1.o
+
+git push --t
+
+
+
+
+project - project structure - modules - 
+
+
+ByteArrayInputStream in = new ByteInputStream();
+
+
+assertequals
